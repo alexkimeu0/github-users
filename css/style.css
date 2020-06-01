@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.form-inline input {
+  border-radius: 0.5rem;
+}
+
+form .btn {
+  border-radius: 0.5rem;
+}
+
+h3 {
+  font-family: "Chelsea Market", sans-serif;
+}
+
+#users {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  margin: 0.5rem 0;
+  background-color: #f5f6fa;
+  color: #000000;
+  border-radius: 1rem;
+}
+
+.card img {
+  height: 200px;
+  width: 100%;
+  margin-bottom: 0.5rem;
+  border-radius: 1rem;
+}
+
+.card a {
+  border-radius: 1rem;
+}
+
+.card a:hover {
+  background-color: #273c75;
+  transition: all 0.6s ease-in;
+}

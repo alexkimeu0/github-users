@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Github Users</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <nav class="navbar navbar-inverse">
+        <a class="navbar-brand" href="index.html">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/600px-Octicons-mark-github.svg.png"
+            width="40"
+            height="40"
+            alt=""
+          />
+        </a>
+
+        <form class="form-inline my-2 my-lg-0" id="searchForm">
+          <input
+            class="form-control mr-sm-2"
+            type="search"
+            placeholder="Search..."
+            aria-label="Search"
+            id="searchTxt"
+          />
+          <button class="btn btn-info my-2 my-sm-0" type="submit">
+            Search
+          </button>
+        </form>
+      </nav>
+
+      <section class="users">
+        <h3 class="text-center">First 100 Github Users</h3>
+        <div class="row" id="users">
+          <div>
+            <img src="images/spinner.gif" alt="" />
+            <h4>Fetching data...</h4>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
